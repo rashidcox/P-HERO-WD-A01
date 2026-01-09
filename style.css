@@ -232,18 +232,19 @@ header .hero-container {
 }
 
 .section-two .brain-detels ul {
-    /* list-style-image: url(assets/CheckCircle.png); */
     font-size: 16px;
     font-weight: 400;
-    list-style-position: inside;
+    list-style-type: none;
 }
 
 .section-two ul li {
     margin-top: 16px;
 }
 
-.section-two ul li::marker {
-    content: "✅ ";
+.section-two ul li img {
+    position: relative;
+    bottom: -4px;
+
 }
 
 .think-container {
