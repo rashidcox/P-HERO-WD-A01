@@ -56,7 +56,12 @@ nav ul a {
     color: #000000;
     text-decoration: none;
 }
-
+a:hover{
+    color: #30B868;
+}
+button:hover{
+    background-color: #10592e;
+}
 header .hero {
     background-image: url(assets/hero-bg.png);
     background-repeat: no-repeat;
