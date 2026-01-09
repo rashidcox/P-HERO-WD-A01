@@ -56,12 +56,15 @@ nav ul a {
     color: #000000;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #30B868;
 }
-button:hover{
+
+button:hover {
     background-color: #10592e;
 }
+
 header .hero {
     background-image: url(assets/hero-bg.png);
     background-repeat: no-repeat;
@@ -92,6 +95,20 @@ header .hero-container {
     color: #30B868;
     font-size: 16px;
     font-weight: 500;
+}
+
+.hero .radio:hover {
+    background-color: #30B868;
+    color: white;
+}
+
+.hero .bbt{
+    border: 1px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+}
+.hero .bbt:hover{
+    background-color: #30B868;
+    border: 1px solid #30B868;
 }
 
 .hero .t-1 {
@@ -276,20 +293,25 @@ footer p {
     color: #FAFAFA;
 }
 
-hr{
+hr {
     height: 1px;
     background-color: #FAFAFA;
     margin-top: 80px;
 }
-footer h6{
+
+footer h6 {
     color: #ffffff;
     font-size: 20px;
     font-weight: 500;
     margin-left: -20px;
 }
+
 footer ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
     margin-top: 16px;
+}
+footer ul li a img:hover{
+    background-color: #30B868
 }
