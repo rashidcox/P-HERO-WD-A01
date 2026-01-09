@@ -29,6 +29,7 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+
 .sub-container {
     max-width: 1360px;
     margin: 0 auto;
@@ -108,43 +109,45 @@ header .hero-container {
     margin: 16px 0 32px 0;
 }
 
-.sub-container  .head {
+.sub-container .head {
     text-align: center;
     font-size: 48px;
     font-weight: 700;
     color: #001931;
     margin-top: 50px;
 }
-.sub-container .p{
+
+.sub-container .p {
     text-align: center;
     color: #627382;
     font-size: 16px;
     margin-top: 16px;
 }
 
-.sub-container .card{
-width: 322px;
-height: 300px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-gap: 16;
-padding: 24px;
-border-radius: 8px;
-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
-background: #ffffff;
+.sub-container .card {
+    width: 322px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    background: #ffffff;
 }
 
 .sub-container .card .image {
-    background-color:#F95555;
+    background-color: #F95555;
     height: 60px;
     width: 60px;
     border-radius: 50%;
     display: grid;
     place-items: center;
 }
+
 .sub-container .card-box {
     display: flex;
     justify-content: space-between;
@@ -152,17 +155,136 @@ background: #ffffff;
     margin-top: 44px;
 }
 
-.card-box .card h5{
+.card-box .card h5 {
     font-size: 24px;
     font-weight: 600;
     color: #001931;
     margin: 16px 0;
 }
-.card-box .card p{
+
+.card-box .card p {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
 }
 
+.section-two {
+    max-width: 1360px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
 
+.section-two .brain-image {
+    height: 600px;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
 
+.section-two .brain-detels {
+    width: 700px;
+}
+
+.section-two .brain-detels p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.section-two .brain-detels h3 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.section-two .brain-detels .a2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.section-two .brain-detels ul {
+    /* list-style-image: url(assets/CheckCircle.png); */
+    font-size: 16px;
+    font-weight: 400;
+    list-style-position: inside;
+}
+
+.section-two ul li {
+    margin-top: 16px;
+}
+
+.section-two ul li::marker {
+    content: "✅ ";
+}
+
+.think-container {
+    max-width: 1360px;
+    height: 384px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    margin: 120px auto;
+}
+
+.think-container h5 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #001931;
+    padding-top: 80px;
+}
+
+.think-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.think-container .button-b {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+footer {
+    width: 100%;
+    background-color: #001931;
+}
+
+footer .fone {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+footer p {
+    text-align: center;
+    padding: 30px 0px;
+    color: #FAFAFA;
+}
+
+hr{
+    height: 1px;
+    background-color: #FAFAFA;
+    margin-top: 80px;
+}
+footer h6{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -20px;
+}
+footer ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
